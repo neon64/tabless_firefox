@@ -1,0 +1,15 @@
+--- browser.xhtml	2020-11-11 20:45:39.702464703 +1100
++++ ./chrome/browser/content/browser/browser.xhtml	2010-01-01 00:00:00.000000000 +1100
+@@ -272,10 +272,10 @@
+   <keyset id="mainKeyset">
+     <key id="key_newNavigator"
+          data-l10n-id="window-new-shortcut"
+-         command="cmd_newNavigator"
++         command="cmd_newNavigator"
+          modifiers="accel" reserved="true"/>
+     <key id="key_newNavigatorTab" data-l10n-id="tab-new-shortcut" modifiers="accel"
+-         command="cmd_newNavigatorTabNoEvent" reserved="true"/>
++         command="cmd_newNavigator" reserved="true"/>
+     <key id="focusURLBar" data-l10n-id="location-open-shortcut" command="Browser:OpenLocation"
+          modifiers="accel"/>
+     <key id="focusURLBar2" data-l10n-id="location-open-shortcut-alt" command="Browser:OpenLocation"

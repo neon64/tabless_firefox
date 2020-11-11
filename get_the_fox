@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# from: https://github.com/nilcons/firefox-hacks
+
+set -e
+
+tempdir="./ffpatch"
+mkdir -p "$tempdir/extract"
+cd "$tempdir/extract"
+unzip -o /usr/lib/firefox/browser/omni.ja
+echo "exit code: $?"
+echo "$tempdir"
